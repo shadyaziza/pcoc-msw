@@ -47,7 +47,7 @@ var countries_default = [
       ar: "\u0642\u0637\u0631"
     },
     phonePrefix: "+974",
-    phoneLength: 8,
+    phoneLength: 11,
     flag: "/flags/qa.png"
   },
   {
@@ -57,7 +57,7 @@ var countries_default = [
       ar: "\u0645\u0635\u0631"
     },
     phonePrefix: "+20",
-    phoneLength: 10,
+    phoneLength: 12,
     flag: "/flags/eg.png"
   },
   {
@@ -67,7 +67,7 @@ var countries_default = [
       ar: "\u0628\u0648\u0644\u0646\u062F\u0627"
     },
     phonePrefix: "+48",
-    phoneLength: 9,
+    phoneLength: 11,
     flag: "/flags/pl.png"
   },
   {
@@ -77,7 +77,7 @@ var countries_default = [
       ar: "\u0644\u0628\u0646\u0627\u0646"
     },
     phonePrefix: "+961",
-    phoneLength: 8,
+    phoneLength: 11,
     flag: "/flags/lb.png"
   },
   {
@@ -87,7 +87,7 @@ var countries_default = [
       ar: "\u0627\u0644\u0633\u0648\u062F\u0627\u0646"
     },
     phonePrefix: "+249",
-    phoneLength: 9,
+    phoneLength: 12,
     flag: "/flags/sd.png"
   },
   {
@@ -97,7 +97,7 @@ var countries_default = [
       ar: "\u0627\u0644\u0648\u0644\u0627\u064A\u0627\u062A \u0627\u0644\u0645\u062A\u062D\u062F\u0629"
     },
     phonePrefix: "+1",
-    phoneLength: 10,
+    phoneLength: 11,
     flag: "/flags/us.png"
   },
   {
@@ -107,7 +107,7 @@ var countries_default = [
       ar: "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629"
     },
     phonePrefix: "+44",
-    phoneLength: 10,
+    phoneLength: 12,
     flag: "/flags/gb.png"
   },
   {
@@ -117,7 +117,7 @@ var countries_default = [
       ar: "\u0641\u0631\u0646\u0633\u0627"
     },
     phonePrefix: "+33",
-    phoneLength: 9,
+    phoneLength: 11,
     flag: "/flags/fr.png"
   },
   {
@@ -127,7 +127,7 @@ var countries_default = [
       ar: "\u0623\u0644\u0645\u0627\u0646\u064A\u0627"
     },
     phonePrefix: "+49",
-    phoneLength: 11,
+    phoneLength: 13,
     flag: "/flags/de.png"
   },
   {
@@ -137,7 +137,7 @@ var countries_default = [
       ar: "\u0627\u0644\u064A\u0627\u0628\u0627\u0646"
     },
     phonePrefix: "+81",
-    phoneLength: 10,
+    phoneLength: 12,
     flag: "/flags/jp.png"
   },
   {
@@ -147,7 +147,7 @@ var countries_default = [
       ar: "\u0627\u0644\u0635\u064A\u0646"
     },
     phonePrefix: "+86",
-    phoneLength: 11,
+    phoneLength: 13,
     flag: "/flags/cn.png"
   },
   {
@@ -157,7 +157,7 @@ var countries_default = [
       ar: "\u0627\u0644\u0647\u0646\u062F"
     },
     phonePrefix: "+91",
-    phoneLength: 10,
+    phoneLength: 12,
     flag: "/flags/in.png"
   },
   {
@@ -167,7 +167,7 @@ var countries_default = [
       ar: "\u0623\u0633\u062A\u0631\u0627\u0644\u064A\u0627"
     },
     phonePrefix: "+61",
-    phoneLength: 9,
+    phoneLength: 11,
     flag: "/flags/au.png"
   },
   {
@@ -177,7 +177,7 @@ var countries_default = [
       ar: "\u0643\u0646\u062F\u0627"
     },
     phonePrefix: "+1",
-    phoneLength: 10,
+    phoneLength: 11,
     flag: "/flags/ca.png"
   },
   {
@@ -187,7 +187,7 @@ var countries_default = [
       ar: "\u0627\u0644\u0645\u0643\u0633\u064A\u0643"
     },
     phonePrefix: "+52",
-    phoneLength: 10,
+    phoneLength: 12,
     flag: "/flags/mx.png"
   },
   {
@@ -197,7 +197,7 @@ var countries_default = [
       ar: "\u0627\u0644\u0628\u0631\u0627\u0632\u064A\u0644"
     },
     phonePrefix: "+55",
-    phoneLength: 11,
+    phoneLength: 13,
     flag: "/flags/br.png"
   },
   {
@@ -207,7 +207,7 @@ var countries_default = [
       ar: "\u062C\u0646\u0648\u0628 \u0623\u0641\u0631\u064A\u0642\u064A\u0627"
     },
     phonePrefix: "+27",
-    phoneLength: 9,
+    phoneLength: 11,
     flag: "/flags/za.png"
   },
   {
@@ -217,7 +217,7 @@ var countries_default = [
       ar: "\u062A\u0631\u0643\u064A\u0627"
     },
     phonePrefix: "+90",
-    phoneLength: 10,
+    phoneLength: 12,
     flag: "/flags/tr.png"
   },
   {
@@ -227,7 +227,7 @@ var countries_default = [
       ar: "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0627\u0644\u0633\u0639\u0648\u062F\u064A\u0629"
     },
     phonePrefix: "+966",
-    phoneLength: 9,
+    phoneLength: 12,
     flag: "/flags/sa.png"
   },
   {
@@ -237,7 +237,7 @@ var countries_default = [
       ar: "\u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062A \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629"
     },
     phonePrefix: "+971",
-    phoneLength: 9,
+    phoneLength: 12,
     flag: "/flags/ae.png"
   },
   {
@@ -247,7 +247,7 @@ var countries_default = [
       ar: "\u0633\u0646\u063A\u0627\u0641\u0648\u0631\u0629"
     },
     phonePrefix: "+65",
-    phoneLength: 8,
+    phoneLength: 10,
     flag: "/flags/sg.png"
   },
   {
@@ -257,7 +257,7 @@ var countries_default = [
       ar: "\u062A\u0627\u064A\u0644\u0627\u0646\u062F"
     },
     phonePrefix: "+66",
-    phoneLength: 9,
+    phoneLength: 11,
     flag: "/flags/th.png"
   },
   {
@@ -267,7 +267,7 @@ var countries_default = [
       ar: "\u0625\u0633\u0628\u0627\u0646\u064A\u0627"
     },
     phonePrefix: "+34",
-    phoneLength: 9,
+    phoneLength: 11,
     flag: "/flags/es.png"
   },
   {
@@ -277,7 +277,7 @@ var countries_default = [
       ar: "\u0625\u064A\u0637\u0627\u0644\u064A\u0627"
     },
     phonePrefix: "+39",
-    phoneLength: 10,
+    phoneLength: 12,
     flag: "/flags/it.png"
   },
   {
@@ -287,7 +287,7 @@ var countries_default = [
       ar: "\u0647\u0648\u0644\u0646\u062F\u0627"
     },
     phonePrefix: "+31",
-    phoneLength: 9,
+    phoneLength: 11,
     flag: "/flags/nl.png"
   },
   {
@@ -297,7 +297,7 @@ var countries_default = [
       ar: "\u0643\u0648\u0631\u064A\u0627 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629"
     },
     phonePrefix: "+82",
-    phoneLength: 10,
+    phoneLength: 12,
     flag: "/flags/kr.png"
   },
   {
@@ -307,7 +307,7 @@ var countries_default = [
       ar: "\u0631\u0648\u0633\u064A\u0627"
     },
     phonePrefix: "+7",
-    phoneLength: 10,
+    phoneLength: 11,
     flag: "/flags/ru.png"
   },
   {
@@ -317,7 +317,7 @@ var countries_default = [
       ar: "\u0625\u0646\u062F\u0648\u0646\u064A\u0633\u064A\u0627"
     },
     phonePrefix: "+62",
-    phoneLength: 10,
+    phoneLength: 12,
     flag: "/flags/id.png"
   },
   {
@@ -327,7 +327,7 @@ var countries_default = [
       ar: "\u0628\u0627\u0643\u0633\u062A\u0627\u0646"
     },
     phonePrefix: "+92",
-    phoneLength: 10,
+    phoneLength: 12,
     flag: "/flags/pk.png"
   },
   {
@@ -337,7 +337,7 @@ var countries_default = [
       ar: "\u0628\u0646\u063A\u0644\u0627\u062F\u064A\u0634"
     },
     phonePrefix: "+880",
-    phoneLength: 10,
+    phoneLength: 13,
     flag: "/flags/bd.png"
   }
 ];
@@ -833,7 +833,7 @@ var seed_guests_default = [
     firstName: "Donald",
     lastName: "Morris",
     email: "donald.morris.m2k8x@guest257.com",
-    phone: "+4912126237953",
+    phone: "+4917126237953",
     countryCode: "de",
     cityId: "de-berlin",
     checkInDate: "2025-03-15",
@@ -859,7 +859,7 @@ var seed_guests_default = [
     firstName: "Youssef",
     lastName: "Ramirez",
     email: "youssef.ramirez.j9ck8a@guest376.com",
-    phone: "+5568847197859",
+    phone: "+5511947197859",
     countryCode: "br",
     cityId: "br-sao",
     checkInDate: "2025-03-14",
@@ -872,7 +872,7 @@ var seed_guests_default = [
     firstName: "Michael",
     lastName: "Hernandez",
     email: "michael.hernandez.pbjmbg@guest369.com",
-    phone: "+200227089789",
+    phone: "+201027089789",
     countryCode: "eg",
     cityId: "eg-cairo",
     checkInDate: "2024-12-23",
@@ -898,7 +898,7 @@ var seed_guests_default = [
     firstName: "Ali",
     lastName: "Wilson",
     email: "ali.wilson.mrkcg@guest800.com",
-    phone: "+249448110501",
+    phone: "+249912110501",
     countryCode: "sd",
     cityId: "sd-omdurman",
     checkInDate: "2024-02-01",
@@ -924,7 +924,7 @@ var seed_guests_default = [
     firstName: "Christopher",
     lastName: "Martinez",
     email: "christopher.martinez.dvg0a@guest926.com",
-    phone: "+399784240725",
+    phone: "+393384240725",
     countryCode: "it",
     cityId: "it-rome",
     checkInDate: "2024-11-23",
@@ -937,7 +937,7 @@ var seed_guests_default = [
     firstName: "Olivia",
     lastName: "Abdullah",
     email: "olivia.abdullah.3d9jam@guest106.com",
-    phone: "+4920952265569",
+    phone: "+4917052265569",
     countryCode: "de",
     cityId: "de-berlin",
     checkInDate: "2024-08-22",
@@ -950,7 +950,7 @@ var seed_guests_default = [
     firstName: "Huda",
     lastName: "Hassan",
     email: "huda.hassan.dgfl2n@guest877.com",
-    phone: "+61079397705",
+    phone: "+61412397705",
     countryCode: "au",
     cityId: "au-melbourne",
     checkInDate: "2025-07-17",
@@ -976,7 +976,7 @@ var seed_guests_default = [
     firstName: "Paul",
     lastName: "Young",
     email: "paul.young.rqpc8e@guest195.com",
-    phone: "+5579424344800",
+    phone: "+5579924344800",
     countryCode: "br",
     cityId: "br-sao",
     checkInDate: "2024-05-26",
@@ -1002,7 +1002,7 @@ var seed_guests_default = [
     firstName: "Hassan",
     lastName: "Perez",
     email: "hassan.perez.bdasf@guest279.com",
-    phone: "+620096398406",
+    phone: "+628126398406",
     countryCode: "id",
     cityId: "id-jakarta",
     checkInDate: "2025-07-20",
@@ -1015,7 +1015,7 @@ var seed_guests_default = [
     firstName: "Isabella",
     lastName: "White",
     email: "isabella.white.nr0b9h@guest876.com",
-    phone: "+74150965449",
+    phone: "+79150965449",
     countryCode: "ru",
     cityId: "ru-stpete",
     checkInDate: "2025-12-19",
@@ -1028,7 +1028,7 @@ var seed_guests_default = [
     firstName: "Sara",
     lastName: "Allen",
     email: "sara.allen.2cpdmr@guest54.com",
-    phone: "+27502825292",
+    phone: "+27712825292",
     countryCode: "za",
     cityId: "za-jhb",
     checkInDate: "2025-04-14",
@@ -1041,7 +1041,7 @@ var seed_guests_default = [
     firstName: "Maryam",
     lastName: "Thomas",
     email: "maryam.thomas.q4pgwr@guest98.com",
-    phone: "+900401742837",
+    phone: "+905301742837",
     countryCode: "tr",
     cityId: "tr-ankara",
     checkInDate: "2024-09-17",
@@ -1054,7 +1054,7 @@ var seed_guests_default = [
     firstName: "Leila",
     lastName: "Phillips",
     email: "leila.phillips.hbtu6@guest994.com",
-    phone: "+6557534278",
+    phone: "+6587534278",
     countryCode: "sg",
     cityId: "sg-singapore",
     checkInDate: "2024-01-24",
@@ -1067,7 +1067,7 @@ var seed_guests_default = [
     firstName: "Lama",
     lastName: "Ramirez",
     email: "lama.ramirez.ids8t8@guest648.com",
-    phone: "+48049710451",
+    phone: "+48519710451",
     countryCode: "pl",
     cityId: "pl-warsaw",
     checkInDate: "2024-02-08",
@@ -1080,7 +1080,7 @@ var seed_guests_default = [
     firstName: "Ahmed",
     lastName: "Cook",
     email: "ahmed.cook.wfarss@guest50.com",
-    phone: "+448730538332",
+    phone: "+447730538332",
     countryCode: "gb",
     cityId: "gb-manchester",
     checkInDate: "2025-12-01",
@@ -1106,7 +1106,7 @@ var seed_guests_default = [
     firstName: "David",
     lastName: "Reeves",
     email: "david.reeves.e8wxif@guest721.com",
-    phone: "+8806833584906",
+    phone: "+8801733584906",
     countryCode: "bd",
     cityId: "bd-dhaka",
     checkInDate: "2024-04-28",
@@ -1132,7 +1132,7 @@ var seed_guests_default = [
     firstName: "Youssef",
     lastName: "Phillips",
     email: "youssef.phillips.1546lg@guest339.com",
-    phone: "+33150060045",
+    phone: "+33650060045",
     countryCode: "fr",
     cityId: "fr-paris",
     checkInDate: "2024-04-25",
@@ -1145,7 +1145,7 @@ var seed_guests_default = [
     firstName: "Harper",
     lastName: "Morris",
     email: "harper.morris.g46fks@guest166.com",
-    phone: "+971449070501",
+    phone: "+971549070501",
     countryCode: "ae",
     cityId: "ae-dubai",
     checkInDate: "2024-02-03",
@@ -1158,7 +1158,7 @@ var seed_guests_default = [
     firstName: "Emma",
     lastName: "Hernandez",
     email: "emma.hernandez.feaif@guest297.com",
-    phone: "+4997894882699",
+    phone: "+4917594882699",
     countryCode: "de",
     cityId: "de-berlin",
     checkInDate: "2025-01-28",
@@ -1171,7 +1171,7 @@ var seed_guests_default = [
     firstName: "Maria",
     lastName: "Miller",
     email: "maria.miller.hqhf2a@guest132.com",
-    phone: "+27129910583",
+    phone: "+27729910583",
     countryCode: "za",
     cityId: "za-capetown",
     checkInDate: "2025-04-22",
@@ -1184,7 +1184,7 @@ var seed_guests_default = [
     firstName: "Scarlett",
     lastName: "Williams",
     email: "scarlett.williams.bhouv@guest161.com",
-    phone: "+812727325847",
+    phone: "+819027325847",
     countryCode: "jp",
     cityId: "jp-tokyo",
     checkInDate: "2024-01-25",
@@ -1197,7 +1197,7 @@ var seed_guests_default = [
     firstName: "Camila",
     lastName: "Edwards",
     email: "camila.edwards.uiiejw@guest966.com",
-    phone: "+34558643926",
+    phone: "+34658643926",
     countryCode: "es",
     cityId: "es-barcelona",
     checkInDate: "2024-05-07",
@@ -1210,7 +1210,7 @@ var seed_guests_default = [
     firstName: "Steven",
     lastName: "Khan",
     email: "steven.khan.2a9bhh@guest651.com",
-    phone: "+34431053175",
+    phone: "+34631053175",
     countryCode: "es",
     cityId: "es-barcelona",
     checkInDate: "2024-04-17",
@@ -1223,7 +1223,7 @@ var seed_guests_default = [
     firstName: "Maria",
     lastName: "Morris",
     email: "maria.morris.fljf@guest331.com",
-    phone: "+826531044231",
+    phone: "+821031044231",
     countryCode: "kr",
     cityId: "kr-busan",
     checkInDate: "2024-06-13",
@@ -1236,7 +1236,7 @@ var seed_guests_default = [
     firstName: "William",
     lastName: "Jones",
     email: "william.jones.m7e3ha@guest105.com",
-    phone: "+11615867525",
+    phone: "+14165867525",
     countryCode: "ca",
     cityId: "ca-toronto",
     checkInDate: "2025-08-09",
@@ -1249,7 +1249,7 @@ var seed_guests_default = [
     firstName: "Youssef",
     lastName: "Williams",
     email: "youssef.williams.emm5ud@guest182.com",
-    phone: "+971088809540",
+    phone: "+971508809540",
     countryCode: "ae",
     cityId: "ae-abudhabi",
     checkInDate: "2024-06-18",
@@ -1262,7 +1262,7 @@ var seed_guests_default = [
     firstName: "Omar",
     lastName: "Clark",
     email: "omar.clark.j4lyi@guest105.com",
-    phone: "+911971809819",
+    phone: "+919871809819",
     countryCode: "in",
     cityId: "in-delhi",
     checkInDate: "2024-10-24",
@@ -1275,7 +1275,7 @@ var seed_guests_default = [
     firstName: "Hassan",
     lastName: "Lewis",
     email: "hassan.lewis.uq0hfn@guest114.com",
-    phone: "+829399249232",
+    phone: "+821099249232",
     countryCode: "kr",
     cityId: "kr-busan",
     checkInDate: "2024-10-22",
@@ -1288,7 +1288,7 @@ var seed_guests_default = [
     firstName: "Khalid",
     lastName: "Phillips",
     email: "khalid.phillips.lk94nr@guest276.com",
-    phone: "+8631639749929",
+    phone: "+8613639749929",
     countryCode: "cn",
     cityId: "cn-beijing",
     checkInDate: "2024-06-28",
@@ -1301,7 +1301,7 @@ var seed_guests_default = [
     firstName: "Noor",
     lastName: "Evans",
     email: "noor.evans.fh8p1p@guest453.com",
-    phone: "+33588949793",
+    phone: "+33688949793",
     countryCode: "fr",
     cityId: "fr-lyon",
     checkInDate: "2025-06-22",
@@ -1314,7 +1314,7 @@ var seed_guests_default = [
     firstName: "Kenneth",
     lastName: "Walker",
     email: "kenneth.walker.fubdqp@guest813.com",
-    phone: "+966175895049",
+    phone: "+966575895049",
     countryCode: "sa",
     cityId: "sa-jeddah",
     checkInDate: "2025-09-10",
@@ -1327,7 +1327,7 @@ var seed_guests_default = [
     firstName: "Scarlett",
     lastName: "Sanchez",
     email: "scarlett.sanchez.vxelv@guest271.com",
-    phone: "+10194568741",
+    phone: "+12134568741",
     countryCode: "us",
     cityId: "us-los",
     checkInDate: "2024-12-18",
@@ -1366,7 +1366,7 @@ var seed_guests_default = [
     firstName: "Evelyn",
     lastName: "Muhammad",
     email: "evelyn.muhammad.a18tcb@guest306.com",
-    phone: "+5598889922383",
+    phone: "+5511989922383",
     countryCode: "br",
     cityId: "br-sao",
     checkInDate: "2025-05-14",
@@ -1379,7 +1379,7 @@ var seed_guests_default = [
     firstName: "Kevin",
     lastName: "Torres",
     email: "kevin.torres.4e1cqy@guest712.com",
-    phone: "+6535206873",
+    phone: "+6595206873",
     countryCode: "sg",
     cityId: "sg-singapore",
     checkInDate: "2025-05-19",
@@ -1405,7 +1405,7 @@ var seed_guests_default = [
     firstName: "Charles",
     lastName: "Hassan",
     email: "charles.hassan.dszoud@guest117.com",
-    phone: "+971057170752",
+    phone: "+971557170752",
     countryCode: "ae",
     cityId: "ae-abudhabi",
     checkInDate: "2025-03-09",
@@ -1418,7 +1418,7 @@ var seed_guests_default = [
     firstName: "Dina",
     lastName: "Wilson",
     email: "dina.wilson.8sr6nus@guest732.com",
-    phone: "+904714430725",
+    phone: "+905314430725",
     countryCode: "tr",
     cityId: "tr-ankara",
     checkInDate: "2024-03-21",
@@ -1431,7 +1431,7 @@ var seed_guests_default = [
     firstName: "Michael",
     lastName: "Ramirez",
     email: "michael.ramirez.y9y5w@guest864.com",
-    phone: "+629165678207",
+    phone: "+628165678207",
     countryCode: "id",
     cityId: "id-bandung",
     checkInDate: "2025-03-07",
@@ -1444,7 +1444,7 @@ var seed_guests_default = [
     firstName: "Noor",
     lastName: "Cook",
     email: "noor.cook.o3h9e9@guest523.com",
-    phone: "+8608076126814",
+    phone: "+8613876126814",
     countryCode: "cn",
     cityId: "cn-beijing",
     checkInDate: "2024-06-23",
@@ -1457,7 +1457,7 @@ var seed_guests_default = [
     firstName: "Hassan",
     lastName: "Rodriguez",
     email: "hassan.rodriguez.lqhou@guest296.com",
-    phone: "+27284218958",
+    phone: "+27824218958",
     countryCode: "za",
     cityId: "za-jhb",
     checkInDate: "2025-10-14",
@@ -1470,7 +1470,7 @@ var seed_guests_default = [
     firstName: "Anthony",
     lastName: "Saleh",
     email: "anthony.saleh.jxol6s@guest401.com",
-    phone: "+914319437558",
+    phone: "+918319437558",
     countryCode: "in",
     cityId: "in-delhi",
     checkInDate: "2025-11-17",
@@ -1509,7 +1509,7 @@ var seed_guests_default = [
     firstName: "Ibrahim",
     lastName: "Gonzalez",
     email: "ibrahim.gonzalez.yyk0y@guest904.com",
-    phone: "+4971300972472",
+    phone: "+4917600972472",
     countryCode: "de",
     cityId: "de-berlin",
     checkInDate: "2024-08-15",
@@ -1522,7 +1522,7 @@ var seed_guests_default = [
     firstName: "David",
     lastName: "Davis",
     email: "david.davis.v3w3u@guest45.com",
-    phone: "+96167815594",
+    phone: "+96176815594",
     countryCode: "lb",
     cityId: "lb-tripoli",
     checkInDate: "2025-04-22",
@@ -1535,7 +1535,7 @@ var seed_guests_default = [
     firstName: "William",
     lastName: "Williams",
     email: "william.williams.tfa777@guest112.com",
-    phone: "+249821487230",
+    phone: "+249921487230",
     countryCode: "sd",
     cityId: "sd-omdurman",
     checkInDate: "2024-02-08",
@@ -1548,7 +1548,7 @@ var seed_guests_default = [
     firstName: "John",
     lastName: "Brown",
     email: "john.brown.lcb9vn@guest822.com",
-    phone: "+71239168186",
+    phone: "+79239168186",
     countryCode: "ru",
     cityId: "ru-moscow",
     checkInDate: "2024-12-17",
@@ -1561,7 +1561,7 @@ var seed_guests_default = [
     firstName: "Maria",
     lastName: "Hernandez",
     email: "maria.hernandez.03plvm@guest628.com",
-    phone: "+5552183867248",
+    phone: "+5521983867248",
     countryCode: "br",
     cityId: "br-rio",
     checkInDate: "2024-07-30",
@@ -1574,7 +1574,7 @@ var seed_guests_default = [
     firstName: "Anthony",
     lastName: "Abdullah",
     email: "anthony.abdullah.8tgd8ep@guest9.com",
-    phone: "+8804791768887",
+    phone: "+8801791768887",
     countryCode: "bd",
     cityId: "bd-chittagong",
     checkInDate: "2024-10-21",
@@ -1587,7 +1587,7 @@ var seed_guests_default = [
     firstName: "John",
     lastName: "Cook",
     email: "john.cook.u3s37@guest657.com",
-    phone: "+34319730796",
+    phone: "+34619730796",
     countryCode: "es",
     cityId: "es-madrid",
     checkInDate: "2024-02-20",
@@ -1661,14 +1661,22 @@ function createGuest(body) {
 function updateGuest(id, body) {
   const index = guests.findIndex((g) => g.id === id);
   if (index === -1) {
-    return void 0;
+    return { success: false, reason: "not_found", error: "guest not found" };
   }
-  const guest = {
-    id,
-    ...body
-  };
+  const current = guests[index];
+  if (!current) {
+    return { success: false, reason: "not_found", error: "guest not found" };
+  }
+  if (body.status !== current.status && !canTransition(current.status, body.status)) {
+    return {
+      success: false,
+      reason: "invalid_transition",
+      error: `Invalid transition from ${current.status} to ${body.status}`
+    };
+  }
+  const guest = { id, ...body };
   guests[index] = guest;
-  return guest;
+  return { success: true, guest };
 }
 var allowedTransitions = {
   reserved: ["checked-in", "checked-out", "cancelled"],
@@ -1807,11 +1815,12 @@ var updateGuestHandler = http4.put(
     const { id } = params;
     const guestIn = await request.json();
     await delay4();
-    const guestOut = updateGuest(id, guestIn);
-    if (guestOut === void 0) {
-      return HttpResponse4.json({ error: "guest not found" }, { status: 404 });
+    const result = updateGuest(id, guestIn);
+    if (!result.success) {
+      const status = result.reason === "not_found" ? 404 : 422;
+      return HttpResponse4.json({ error: result.error }, { status });
     }
-    return HttpResponse4.json(guestOut, { status: 200 });
+    return HttpResponse4.json(result.guest, { status: 200 });
   }
 );
 var updateGuestStatusHandler = http4.patch(

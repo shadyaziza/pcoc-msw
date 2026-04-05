@@ -6,7 +6,7 @@
       "ar": "قطر"
     },
     "phonePrefix": "+974",
-    "phoneLength": 8,
+    "phoneLength": 11,
     "flag": "/flags/qa.png"
   },
   {
@@ -16,7 +16,7 @@
       "ar": "مصر"
     },
     "phonePrefix": "+20",
-    "phoneLength": 10,
+    "phoneLength": 12,
     "flag": "/flags/eg.png"
   },
   {
@@ -26,7 +26,7 @@
       "ar": "بولندا"
     },
     "phonePrefix": "+48",
-    "phoneLength": 9,
+    "phoneLength": 11,
     "flag": "/flags/pl.png"
   },
   {
@@ -36,7 +36,7 @@
       "ar": "لبنان"
     },
     "phonePrefix": "+961",
-    "phoneLength": 8,
+    "phoneLength": 11,
     "flag": "/flags/lb.png"
   },
   {
@@ -46,7 +46,7 @@
       "ar": "السودان"
     },
     "phonePrefix": "+249",
-    "phoneLength": 9,
+    "phoneLength": 12,
     "flag": "/flags/sd.png"
   },
   {
@@ -56,7 +56,7 @@
       "ar": "الولايات المتحدة"
     },
     "phonePrefix": "+1",
-    "phoneLength": 10,
+    "phoneLength": 11,
     "flag": "/flags/us.png"
   },
   {
@@ -66,7 +66,7 @@
       "ar": "المملكة المتحدة"
     },
     "phonePrefix": "+44",
-    "phoneLength": 10,
+    "phoneLength": 12,
     "flag": "/flags/gb.png"
   },
   {
@@ -76,7 +76,7 @@
       "ar": "فرنسا"
     },
     "phonePrefix": "+33",
-    "phoneLength": 9,
+    "phoneLength": 11,
     "flag": "/flags/fr.png"
   },
   {
@@ -86,7 +86,7 @@
       "ar": "ألمانيا"
     },
     "phonePrefix": "+49",
-    "phoneLength": 11,
+    "phoneLength": 13,
     "flag": "/flags/de.png"
   },
   {
@@ -96,7 +96,7 @@
       "ar": "اليابان"
     },
     "phonePrefix": "+81",
-    "phoneLength": 10,
+    "phoneLength": 12,
     "flag": "/flags/jp.png"
   },
   {
@@ -106,7 +106,7 @@
       "ar": "الصين"
     },
     "phonePrefix": "+86",
-    "phoneLength": 11,
+    "phoneLength": 13,
     "flag": "/flags/cn.png"
   },
   {
@@ -116,7 +116,7 @@
       "ar": "الهند"
     },
     "phonePrefix": "+91",
-    "phoneLength": 10,
+    "phoneLength": 12,
     "flag": "/flags/in.png"
   },
   {
@@ -126,7 +126,7 @@
       "ar": "أستراليا"
     },
     "phonePrefix": "+61",
-    "phoneLength": 9,
+    "phoneLength": 11,
     "flag": "/flags/au.png"
   },
   {
@@ -136,7 +136,7 @@
       "ar": "كندا"
     },
     "phonePrefix": "+1",
-    "phoneLength": 10,
+    "phoneLength": 11,
     "flag": "/flags/ca.png"
   },
   {
@@ -146,7 +146,7 @@
       "ar": "المكسيك"
     },
     "phonePrefix": "+52",
-    "phoneLength": 10,
+    "phoneLength": 12,
     "flag": "/flags/mx.png"
   },
   {
@@ -156,7 +156,7 @@
       "ar": "البرازيل"
     },
     "phonePrefix": "+55",
-    "phoneLength": 11,
+    "phoneLength": 13,
     "flag": "/flags/br.png"
   },
   {
@@ -166,7 +166,7 @@
       "ar": "جنوب أفريقيا"
     },
     "phonePrefix": "+27",
-    "phoneLength": 9,
+    "phoneLength": 11,
     "flag": "/flags/za.png"
   },
   {
@@ -176,7 +176,7 @@
       "ar": "تركيا"
     },
     "phonePrefix": "+90",
-    "phoneLength": 10,
+    "phoneLength": 12,
     "flag": "/flags/tr.png"
   },
   {
@@ -186,7 +186,7 @@
       "ar": "المملكة العربية السعودية"
     },
     "phonePrefix": "+966",
-    "phoneLength": 9,
+    "phoneLength": 12,
     "flag": "/flags/sa.png"
   },
   {
@@ -196,7 +196,7 @@
       "ar": "الإمارات العربية المتحدة"
     },
     "phonePrefix": "+971",
-    "phoneLength": 9,
+    "phoneLength": 12,
     "flag": "/flags/ae.png"
   },
   {
@@ -206,7 +206,7 @@
       "ar": "سنغافورة"
     },
     "phonePrefix": "+65",
-    "phoneLength": 8,
+    "phoneLength": 10,
     "flag": "/flags/sg.png"
   },
   {
@@ -216,7 +216,7 @@
       "ar": "تايلاند"
     },
     "phonePrefix": "+66",
-    "phoneLength": 9,
+    "phoneLength": 11,
     "flag": "/flags/th.png"
   },
   {
@@ -226,7 +226,7 @@
       "ar": "إسبانيا"
     },
     "phonePrefix": "+34",
-    "phoneLength": 9,
+    "phoneLength": 11,
     "flag": "/flags/es.png"
   },
   {
@@ -236,7 +236,7 @@
       "ar": "إيطاليا"
     },
     "phonePrefix": "+39",
-    "phoneLength": 10,
+    "phoneLength": 12,
     "flag": "/flags/it.png"
   },
   {
@@ -246,7 +246,7 @@
       "ar": "هولندا"
     },
     "phonePrefix": "+31",
-    "phoneLength": 9,
+    "phoneLength": 11,
     "flag": "/flags/nl.png"
   },
   {
@@ -256,7 +256,7 @@
       "ar": "كوريا الجنوبية"
     },
     "phonePrefix": "+82",
-    "phoneLength": 10,
+    "phoneLength": 12,
     "flag": "/flags/kr.png"
   },
   {
@@ -266,7 +266,7 @@
       "ar": "روسيا"
     },
     "phonePrefix": "+7",
-    "phoneLength": 10,
+    "phoneLength": 11,
     "flag": "/flags/ru.png"
   },
   {
@@ -276,7 +276,7 @@
       "ar": "إندونيسيا"
     },
     "phonePrefix": "+62",
-    "phoneLength": 10,
+    "phoneLength": 12,
     "flag": "/flags/id.png"
   },
   {
@@ -286,7 +286,7 @@
       "ar": "باكستان"
     },
     "phonePrefix": "+92",
-    "phoneLength": 10,
+    "phoneLength": 12,
     "flag": "/flags/pk.png"
   },
   {
@@ -296,7 +296,7 @@
       "ar": "بنغلاديش"
     },
     "phonePrefix": "+880",
-    "phoneLength": 10,
+    "phoneLength": 13,
     "flag": "/flags/bd.png"
   }
 ]

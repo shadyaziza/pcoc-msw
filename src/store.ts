@@ -73,20 +73,37 @@ export function createGuest(body: CreateOrUpdateGuestRequestBody): Guest {
   return guest;
 }
 
+export type UpdateGuestResult =
+  | { success: true; guest: Guest }
+  | { success: false; reason: 'not_found' | 'invalid_transition'; error: string };
+
 export function updateGuest(
   id: string,
   body: CreateOrUpdateGuestRequestBody,
-): Guest | undefined {
+): UpdateGuestResult {
   const index = guests.findIndex((g) => g.id === id);
   if (index === -1) {
-    return undefined;
+    return { success: false, reason: 'not_found', error: 'guest not found' };
   }
-  const guest = {
-    id: id,
-    ...body,
-  };
+
+  const current = guests[index];
+  if (!current) {
+    return { success: false, reason: 'not_found', error: 'guest not found' };
+  }
+  if (
+    body.status !== current.status &&
+    !canTransition(current.status, body.status)
+  ) {
+    return {
+      success: false,
+      reason: 'invalid_transition',
+      error: `Invalid transition from ${current.status} to ${body.status}`,
+    };
+  }
+
+  const guest = { id, ...body };
   guests[index] = guest;
-  return guest;
+  return { success: true, guest };
 }
 
 type TransitionMap = {

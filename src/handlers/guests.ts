@@ -79,11 +79,12 @@ const updateGuestHandler = http.put<{ id: string }>(
     const { id } = params;
     const guestIn = (await request.json()) as CreateOrUpdateGuestRequestBody;
     await delay();
-    const guestOut = updateGuest(id, guestIn);
-    if (guestOut === undefined) {
-      return HttpResponse.json({ error: 'guest not found' }, { status: 404 });
+    const result = updateGuest(id, guestIn);
+    if (!result.success) {
+      const status = result.reason === 'not_found' ? 404 : 422;
+      return HttpResponse.json({ error: result.error }, { status });
     }
-    return HttpResponse.json(guestOut, { status: 200 });
+    return HttpResponse.json(result.guest, { status: 200 });
   },
 );
 
