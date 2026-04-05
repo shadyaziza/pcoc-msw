@@ -1,22 +1,12 @@
-# @pcoc/mock-server
+# pcoc-msw
 
 MSW-based mock backend for the PCOC Guest Management React Training Exercise.
 
 ## Install
 
 ```bash
-bun add -D github:MOFA-Qatar/pcoc-msw
-```
-
-`msw` is a peer dependency — install it alongside:
-
-```bash
+bun add -D github:shadyaziza/pcoc-msw#main
 bun add -D msw
-```
-
-Then initialize the MSW service worker in your project's `public/` directory:
-
-```bash
 bunx msw init public/ --save
 ```
 
@@ -25,7 +15,7 @@ bunx msw init public/ --save
 Call `setupMockServer()` once at your app's entry point (e.g., `main.tsx`), **before** rendering:
 
 ```ts
-import { setupMockServer } from '@pcoc/mock-server';
+import { setupMockServer } from 'pcoc-msw';
 
 await setupMockServer();
 
@@ -36,7 +26,7 @@ This starts MSW in the browser, intercepting all `/api/*` requests. No real back
 
 ## API Docs
 
-The package includes an interactive API reference powered by Scalar. Add the Vite plugin to your config:
+The package includes an interactive API reference (OpenAPI 3.0 spec powered by [Scalar](https://scalar.com)). Add the Vite plugin to your config:
 
 ```ts
 // vite.config.ts
@@ -47,7 +37,11 @@ export default defineConfig({
 });
 ```
 
-Then visit [http://localhost:5173/api/docs](http://localhost:5173/api/docs) while the dev server is running.
+Then visit `/api/docs` in the browser while the dev server is running (e.g., `http://localhost:5173/api/docs`).
+
+The docs cover all endpoints, request/response schemas, status codes, and business rules. **Use this as your primary API reference.**
+
+You can also access the raw OpenAPI spec at `/api/docs/openapi.yaml`.
 
 ## Available Endpoints
 
@@ -57,9 +51,18 @@ Then visit [http://localhost:5173/api/docs](http://localhost:5173/api/docs) whil
 | `GET`   | `/api/guests`                        | Paginated guest list (query: page, pageSize, search, status, countryCode) |
 | `GET`   | `/api/guests/:id`                    | Single guest by ID                               |
 | `POST`  | `/api/guests`                        | Create a guest                                   |
-| `PUT`   | `/api/guests/:id`                    | Update a guest                                   |
-| `PATCH` | `/api/guests/:id/status`             | Change guest status                              |
+| `PUT`   | `/api/guests/:id`                    | Update a guest (enforces status transition rules) |
+| `PATCH` | `/api/guests/:id/status`             | Change guest status (422 on invalid transitions) |
 | `PATCH` | `/api/guests/bulk-status`            | Bulk status update                               |
 | `GET`   | `/api/guests/check-email`            | Check email uniqueness (query: `email`)          |
-| `GET`   | `/api/countries`                     | All countries                                    |
+| `GET`   | `/api/countries`                     | All countries with flags and phone info           |
 | `GET`   | `/api/countries/:countryCode/cities` | Cities for a country                             |
+
+## Status Transition Rules
+
+Not all status changes are allowed. The server returns `422` for:
+
+- `checked-out` → `checked-in`
+- `cancelled` → `checked-in`
+
+This applies to both `PATCH /status` and `PUT /guests/:id`.
