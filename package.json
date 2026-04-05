@@ -11,6 +11,16 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
+    },
+    "./vite": {
+      "types": "./dist/vite-plugin.d.ts",
+      "import": "./dist/vite-plugin.js",
+      "require": "./dist/vite-plugin.cjs"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "vite": ["./dist/vite-plugin.d.ts"]
     }
   },
   "files": [

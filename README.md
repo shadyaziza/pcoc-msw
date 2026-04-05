@@ -34,6 +34,21 @@ await setupMockServer();
 
 This starts MSW in the browser, intercepting all `/api/*` requests. No real backend needed.
 
+## API Docs
+
+The package includes an interactive API reference powered by Scalar. Add the Vite plugin to your config:
+
+```ts
+// vite.config.ts
+import { pcocApiDocs } from 'pcoc-msw/vite';
+
+export default defineConfig({
+  plugins: [pcocApiDocs(), /* ...your other plugins */],
+});
+```
+
+Then visit [http://localhost:5173/api/docs](http://localhost:5173/api/docs) while the dev server is running.
+
 ## Available Endpoints
 
 | Method  | Endpoint                             | Description                                      |
