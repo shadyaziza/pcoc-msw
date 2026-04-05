@@ -1,0 +1,35 @@
+{
+  "name": "pcoc-msw",
+  "version": "0.1.0",
+  "description": "MSW-based mock backend for the PCOC React Training Exercise",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "bun run build"
+  },
+  "peerDependencies": {
+    "msw": "^2.12.14"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "msw": "^2.12.14",
+    "tsup": "^8.5.1",
+    "vitest": "^4.1.2",
+    "typescript": "6.0.2"
+  }
+}

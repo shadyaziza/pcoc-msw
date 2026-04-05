@@ -1,0 +1,302 @@
+[
+  {
+    "code": "qa",
+    "name": {
+      "en": "Qatar",
+      "ar": "قطر"
+    },
+    "phonePrefix": "+974",
+    "phoneLength": 8,
+    "flag": "/flags/qa.png"
+  },
+  {
+    "code": "eg",
+    "name": {
+      "en": "Egypt",
+      "ar": "مصر"
+    },
+    "phonePrefix": "+20",
+    "phoneLength": 10,
+    "flag": "/flags/eg.png"
+  },
+  {
+    "code": "pl",
+    "name": {
+      "en": "Poland",
+      "ar": "بولندا"
+    },
+    "phonePrefix": "+48",
+    "phoneLength": 9,
+    "flag": "/flags/pl.png"
+  },
+  {
+    "code": "lb",
+    "name": {
+      "en": "Lebanon",
+      "ar": "لبنان"
+    },
+    "phonePrefix": "+961",
+    "phoneLength": 8,
+    "flag": "/flags/lb.png"
+  },
+  {
+    "code": "sd",
+    "name": {
+      "en": "Sudan",
+      "ar": "السودان"
+    },
+    "phonePrefix": "+249",
+    "phoneLength": 9,
+    "flag": "/flags/sd.png"
+  },
+  {
+    "code": "us",
+    "name": {
+      "en": "United States",
+      "ar": "الولايات المتحدة"
+    },
+    "phonePrefix": "+1",
+    "phoneLength": 10,
+    "flag": "/flags/us.png"
+  },
+  {
+    "code": "gb",
+    "name": {
+      "en": "United Kingdom",
+      "ar": "المملكة المتحدة"
+    },
+    "phonePrefix": "+44",
+    "phoneLength": 10,
+    "flag": "/flags/gb.png"
+  },
+  {
+    "code": "fr",
+    "name": {
+      "en": "France",
+      "ar": "فرنسا"
+    },
+    "phonePrefix": "+33",
+    "phoneLength": 9,
+    "flag": "/flags/fr.png"
+  },
+  {
+    "code": "de",
+    "name": {
+      "en": "Germany",
+      "ar": "ألمانيا"
+    },
+    "phonePrefix": "+49",
+    "phoneLength": 11,
+    "flag": "/flags/de.png"
+  },
+  {
+    "code": "jp",
+    "name": {
+      "en": "Japan",
+      "ar": "اليابان"
+    },
+    "phonePrefix": "+81",
+    "phoneLength": 10,
+    "flag": "/flags/jp.png"
+  },
+  {
+    "code": "cn",
+    "name": {
+      "en": "China",
+      "ar": "الصين"
+    },
+    "phonePrefix": "+86",
+    "phoneLength": 11,
+    "flag": "/flags/cn.png"
+  },
+  {
+    "code": "in",
+    "name": {
+      "en": "India",
+      "ar": "الهند"
+    },
+    "phonePrefix": "+91",
+    "phoneLength": 10,
+    "flag": "/flags/in.png"
+  },
+  {
+    "code": "au",
+    "name": {
+      "en": "Australia",
+      "ar": "أستراليا"
+    },
+    "phonePrefix": "+61",
+    "phoneLength": 9,
+    "flag": "/flags/au.png"
+  },
+  {
+    "code": "ca",
+    "name": {
+      "en": "Canada",
+      "ar": "كندا"
+    },
+    "phonePrefix": "+1",
+    "phoneLength": 10,
+    "flag": "/flags/ca.png"
+  },
+  {
+    "code": "mx",
+    "name": {
+      "en": "Mexico",
+      "ar": "المكسيك"
+    },
+    "phonePrefix": "+52",
+    "phoneLength": 10,
+    "flag": "/flags/mx.png"
+  },
+  {
+    "code": "br",
+    "name": {
+      "en": "Brazil",
+      "ar": "البرازيل"
+    },
+    "phonePrefix": "+55",
+    "phoneLength": 11,
+    "flag": "/flags/br.png"
+  },
+  {
+    "code": "za",
+    "name": {
+      "en": "South Africa",
+      "ar": "جنوب أفريقيا"
+    },
+    "phonePrefix": "+27",
+    "phoneLength": 9,
+    "flag": "/flags/za.png"
+  },
+  {
+    "code": "tr",
+    "name": {
+      "en": "Turkey",
+      "ar": "تركيا"
+    },
+    "phonePrefix": "+90",
+    "phoneLength": 10,
+    "flag": "/flags/tr.png"
+  },
+  {
+    "code": "sa",
+    "name": {
+      "en": "Saudi Arabia",
+      "ar": "المملكة العربية السعودية"
+    },
+    "phonePrefix": "+966",
+    "phoneLength": 9,
+    "flag": "/flags/sa.png"
+  },
+  {
+    "code": "ae",
+    "name": {
+      "en": "United Arab Emirates",
+      "ar": "الإمارات العربية المتحدة"
+    },
+    "phonePrefix": "+971",
+    "phoneLength": 9,
+    "flag": "/flags/ae.png"
+  },
+  {
+    "code": "sg",
+    "name": {
+      "en": "Singapore",
+      "ar": "سنغافورة"
+    },
+    "phonePrefix": "+65",
+    "phoneLength": 8,
+    "flag": "/flags/sg.png"
+  },
+  {
+    "code": "th",
+    "name": {
+      "en": "Thailand",
+      "ar": "تايلاند"
+    },
+    "phonePrefix": "+66",
+    "phoneLength": 9,
+    "flag": "/flags/th.png"
+  },
+  {
+    "code": "es",
+    "name": {
+      "en": "Spain",
+      "ar": "إسبانيا"
+    },
+    "phonePrefix": "+34",
+    "phoneLength": 9,
+    "flag": "/flags/es.png"
+  },
+  {
+    "code": "it",
+    "name": {
+      "en": "Italy",
+      "ar": "إيطاليا"
+    },
+    "phonePrefix": "+39",
+    "phoneLength": 10,
+    "flag": "/flags/it.png"
+  },
+  {
+    "code": "nl",
+    "name": {
+      "en": "Netherlands",
+      "ar": "هولندا"
+    },
+    "phonePrefix": "+31",
+    "phoneLength": 9,
+    "flag": "/flags/nl.png"
+  },
+  {
+    "code": "kr",
+    "name": {
+      "en": "South Korea",
+      "ar": "كوريا الجنوبية"
+    },
+    "phonePrefix": "+82",
+    "phoneLength": 10,
+    "flag": "/flags/kr.png"
+  },
+  {
+    "code": "ru",
+    "name": {
+      "en": "Russia",
+      "ar": "روسيا"
+    },
+    "phonePrefix": "+7",
+    "phoneLength": 10,
+    "flag": "/flags/ru.png"
+  },
+  {
+    "code": "id",
+    "name": {
+      "en": "Indonesia",
+      "ar": "إندونيسيا"
+    },
+    "phonePrefix": "+62",
+    "phoneLength": 10,
+    "flag": "/flags/id.png"
+  },
+  {
+    "code": "pk",
+    "name": {
+      "en": "Pakistan",
+      "ar": "باكستان"
+    },
+    "phonePrefix": "+92",
+    "phoneLength": 10,
+    "flag": "/flags/pk.png"
+  },
+  {
+    "code": "bd",
+    "name": {
+      "en": "Bangladesh",
+      "ar": "بنغلاديش"
+    },
+    "phonePrefix": "+880",
+    "phoneLength": 10,
+    "flag": "/flags/bd.png"
+  }
+]
