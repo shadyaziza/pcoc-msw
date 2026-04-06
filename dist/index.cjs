@@ -1749,8 +1749,8 @@ function bulkUpdateStatus(guestIds, status) {
   }
   return { succeeded: guests2, failed: err };
 }
-function checkEmailAvailability(email) {
-  return { available: guests.every((g) => g.email !== email) };
+function checkEmailAvailability(email, excludeId) {
+  return { available: guests.every((g) => g.id === excludeId || g.email !== email) };
 }
 
 // src/handlers/cities.ts
@@ -1876,6 +1876,7 @@ var checkEmailHandler = import_msw4.http.get(
   async ({ request }) => {
     const url = new URL(request.url);
     const email = url.searchParams.get("email");
+    const excludeId = url.searchParams.get("excludeId") || void 0;
     await (0, import_msw4.delay)();
     if (!email) {
       return import_msw4.HttpResponse.json(
@@ -1883,7 +1884,7 @@ var checkEmailHandler = import_msw4.http.get(
         { status: 400 }
       );
     }
-    const result = checkEmailAvailability(email);
+    const result = checkEmailAvailability(email, excludeId);
     return import_msw4.HttpResponse.json(result, { status: 200 });
   }
 );

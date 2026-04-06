@@ -104,6 +104,7 @@ paths:
         - name: excludeId
           in: query
           schema: { type: string }
+          description: Guest ID to exclude from the check (use when editing an existing guest)
       responses:
         "200":
           description: Availability result
@@ -168,6 +169,7 @@ paths:
           description: Guest not found
     put:
       summary: Update a guest
+      description: Enforces the same status transition rules as PATCH /status. Returns 422 if the status change is invalid.
       tags: [Guests]
       parameters:
         - name: id
@@ -187,6 +189,8 @@ paths:
               schema: { $ref: "#/components/schemas/Guest" }
         "404":
           description: Guest not found
+        "422":
+          description: Invalid status transition
 
   /guests/{id}/status:
     patch:

@@ -122,6 +122,7 @@ const checkEmailHandler = http.get(
     const url = new URL(request.url);
 
     const email = url.searchParams.get('email');
+    const excludeId = url.searchParams.get('excludeId') || undefined;
 
     await delay();
     if (!email) {
@@ -130,7 +131,7 @@ const checkEmailHandler = http.get(
         { status: 400 },
       );
     }
-    const result = checkEmailAvailability(email);
+    const result = checkEmailAvailability(email, excludeId);
 
     return HttpResponse.json(result, { status: 200 });
   },

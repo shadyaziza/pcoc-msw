@@ -177,6 +177,6 @@ export function bulkUpdateStatus(
   return { succeeded: guests, failed: err };
 }
 
-export function checkEmailAvailability(email: string): EmailCheckResponse {
-  return { available: guests.every((g) => g.email !== email) };
+export function checkEmailAvailability(email: string, excludeId?: string): EmailCheckResponse {
+  return { available: guests.every((g) => g.id === excludeId || g.email !== email) };
 }
