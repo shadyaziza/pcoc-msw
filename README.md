@@ -4,6 +4,8 @@ MSW-based mock backend for the PCOC Guest Management React Training Exercise.
 
 ## Install
 
+> Examples below use **bun**. If you're using npm, pnpm, or yarn, substitute the equivalent commands for your package manager.
+
 ```bash
 bun add -D github:shadyaziza/pcoc-msw#main
 bun add -D msw
